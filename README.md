@@ -114,3 +114,8 @@ Choose **one**:
 3. Go to Matches table → verify confidence scores
 4. Navigate to Journal Preview → confirm balanced DR/CR entries
 ```
+## 7. NextJs Template reference Link: 
+
+https://github.com/Kiranism/next-shadcn-dashboard-starter 
+
+removed : Auth - Clerk 
