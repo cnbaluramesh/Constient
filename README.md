@@ -119,3 +119,10 @@ Choose **one**:
 https://github.com/Kiranism/next-shadcn-dashboard-starter 
 
 removed : Auth - Clerk 
+
+
+## Run Locally
+1. `cp .env.example .env`
+2. `docker-compose up --build`
+3. Open http://localhost:3001 for frontend
+4. API runs on http://localhost:8000
