@@ -104,7 +104,7 @@ curl http://localhost:8000/api/journal/123   -H "Authorization: Bearer <jwt>"
 Choose **one**:  
 
 ### Option A: Video
-- [Loom Link](<insert-here>) showing login → upload → review → journal preview.  
+- [Loom Link] https://www.loom.com/share/576b98d470244472882c37f518649fd8?sid=e13f23ac-2209-4b46-9b47-dce19376a84f  showing login → upload → review → journal preview.  
 
 ### Option B: Markdown Script
 *(put in `DEMO.md`)*  
@@ -121,7 +121,13 @@ https://github.com/Kiranism/next-shadcn-dashboard-starter
 removed : Auth - Clerk 
 
 
-## Run Locally
+## 8. Run seed inside Docker container
+
+If your backend runs inside Docker (receipts-to-ledger-backend only one time execution of below command):
+
+docker exec -it receipts-to-ledger-backend python seed.py
+
+## 9. Run Locally
 1. `cp .env.example .env`
 2. `docker-compose up --build`
 3. Open http://localhost:3001 for frontend
