@@ -5,8 +5,8 @@
 ### Local Development
 ```bash
 # Clone repo
-git clone <your-repo-url>
-cd receipts-to-ledger
+git clone https://github.com/cnbaluramesh/Constient.git
+cd Constien
 
 # Setup Python/Node environment
 python -m venv venv && source venv/bin/activate   # if Python backend
