@@ -1,0 +1,12 @@
+{
+  "tenants": [
+    {"name": "ACME Corp", "email": "billing@acme.com"},
+    {"name": "Megacorp", "email": "ap@megacorp.com"},
+    {"name": "John Doe Holdings", "email": "john@johndoe.com"}
+  ],
+  "invoices": [
+    {"tenant": "ACME Corp", "invoice_no": "INV-1007", "amount_due": 1200.00, "currency": "USD", "issue_date": "2025-01-01"},
+    {"tenant": "John Doe Holdings", "invoice_no": "INV-1002", "amount_due": 800.00, "currency": "USD", "issue_date": "2025-01-03"},
+    {"tenant": "Megacorp", "invoice_no": "INV-1009", "amount_due": 950.00, "currency": "USD", "issue_date": "2025-01-05"}
+  ]
+}
